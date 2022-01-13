@@ -606,15 +606,6 @@ Children:
         Type: DataBind
         DataType: NodePath
         Value: "../../Process/AbrasiveLevel"
-    - Class: Reference
-      Target: ns=23;i=81
-      Direction: Forward
-    - Class: Reference
-      Target: ns=23;i=82
-      Direction: Forward
-    - Class: Reference
-      Target: ns=23;i=83
-      Direction: Forward
     - Name: HighLimit
       Id: g=f2c892940160716c5a7925a4bdd84457
       Type: BaseDataVariableType
@@ -692,6 +683,15 @@ Children:
       DataType: BaseDataType
       ValueRank: OneDimension
       ArrayDimensions: [0]
+    - Class: Reference
+      Target: ns=23;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=23;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=23;i=83
+      Direction: Forward
   - Name: InputCurrentIntensityAlarm
     Id: g=e35d6781e17db58c330c3028a37474f0
     Type: ExclusiveLevelAlarmController
@@ -707,15 +707,6 @@ Children:
         Type: DataBind
         DataType: NodePath
         Value: "../../Process/Input"
-    - Class: Reference
-      Target: ns=23;i=81
-      Direction: Forward
-    - Class: Reference
-      Target: ns=23;i=82
-      Direction: Forward
-    - Class: Reference
-      Target: ns=23;i=83
-      Direction: Forward
     - Name: Message
       Id: g=ca123976c36ac33d2335fc0bbcf660fa
       Type: BaseDataVariableType
@@ -781,6 +772,15 @@ Children:
       DataType: BaseDataType
       ValueRank: OneDimension
       ArrayDimensions: [0]
+    - Class: Reference
+      Target: ns=23;i=81
+      Direction: Forward
+    - Class: Reference
+      Target: ns=23;i=82
+      Direction: Forward
+    - Class: Reference
+      Target: ns=23;i=83
+      Direction: Forward
 - Name: Beam
   Id: g=ac03af1411c769d045e1495651eef694
   Supertype: BaseObjectType

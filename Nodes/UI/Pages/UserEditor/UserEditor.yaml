@@ -101,8 +101,6 @@ Children:
         Id: g=44ea9669a2516f6222914ba7b87a471e
         Type: ListBox
         Children:
-        - Class: Reference
-          Target: ns=7;i=481
         - Name: Model
           Id: g=c05feabe8f92749dd4873c037eb5e200
           Type: NodePointer
@@ -211,12 +209,13 @@ Children:
           Type: BaseDataVariableType
           DataType: BaseDataType
           AccessLevel: Read
+        - Class: Reference
+          Target: ns=7;i=481
+          Direction: Forward
       - Name: UserEditorPanelLoader
         Id: g=eecaed64bf582dc070a6d8eed93ac6e2
         Type: PanelLoader
         Children:
-        - Class: Reference
-          Target: ns=7;i=478
         - Name: Panel
           Id: g=88ee90c787eabf36014e1a9c47deb610
           Type: NodePointer
@@ -344,6 +343,9 @@ Children:
           - Class: Method
             Name: GoToUserDetailsPanel
             Id: g=225457fb092f0e3df7114df18d300ccf
+        - Class: Reference
+          Target: ns=7;i=478
+          Direction: Forward
     - Name: HorizontalLayout2
       Id: g=366c61f0b5ece39f8d29e0434f235e2e
       Type: RowLayout
@@ -1464,8 +1466,6 @@ Children:
                 Type: PropertyType
                 DataType: NodeId
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Class: Reference
-              Target: ns=7;i=480
             - Name: LocaleComboBoxLogic
               Id: g=11fda18fa37668b098da90b24fb7a1f9
               Type: NetLogic
@@ -1498,6 +1498,9 @@ Children:
               Type: BaseDataVariableType
               DataType: BaseDataType
               AccessLevel: Read
+            - Class: Reference
+              Target: ns=7;i=480
+              Direction: Forward
           - Name: TopMargin
             Id: g=b7dfc0400b383a80c1f46f2762c638b1
             Type: BaseVariableType
@@ -1843,6 +1846,7 @@ Children:
         Children:
         - Class: Reference
           Target: g=595bfb60710b9661d7f063cf75ecdf1c
+          Direction: Forward
       - Name: User
         Id: g=db8d442b90ac53ab8cf256358271a429
         Type: NodePointer
@@ -3057,9 +3061,6 @@ Children:
                 Type: PropertyType
                 DataType: NodeId
                 Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Class: Reference
-              Target: ns=7;i=480
-              Direction: Forward
             - Name: LocaleComboBoxLogic
               Id: g=da03824705d443a96d6ef19b8b3f5c58
               Type: NetLogic
@@ -3092,6 +3093,9 @@ Children:
               Type: BaseDataVariableType
               DataType: BaseDataType
               AccessLevel: Read
+            - Class: Reference
+              Target: ns=7;i=480
+              Direction: Forward
           - Name: TopMargin
             Id: g=ba54a0aa18567fb2b2847e8a9b3aaee2
             Type: BaseVariableType
@@ -3723,8 +3727,6 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: {"IdType":0,"Id":0,"Namespace":-1}
-  - Class: Reference
-    Target: ns=7;i=480
   - Name: Width
     Id: g=82e991293d38edbc7329b1b3f2f3d84c
     Type: BaseVariableType
@@ -3745,3 +3747,6 @@ Children:
     Type: BaseDataVariableType
     DataType: BaseDataType
     AccessLevel: Read
+  - Class: Reference
+    Target: ns=7;i=480
+    Direction: Forward

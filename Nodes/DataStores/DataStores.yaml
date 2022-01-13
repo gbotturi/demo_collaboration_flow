@@ -14,18 +14,6 @@ Children:
       Id: g=228f6d85ac4e7bcd7688d2e864db9110
       Type: SQLiteStoreTable
       Children:
-      - Class: Reference
-        Target: ns=19;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=19;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=19;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=19;i=20
-        Direction: Forward
       - Name: Columns
         Id: g=18ec86cc29cc5b83e6b562f601dac24c
         Type: BaseObjectType
@@ -85,10 +73,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 1000
-    - Name: RecipeSchema1
-      Id: g=bec1df908a11cde695f0961efa270ad8
-      Type: SQLiteStoreTable
-      Children:
       - Class: Reference
         Target: ns=19;i=12
         Direction: Forward
@@ -101,6 +85,10 @@ Children:
       - Class: Reference
         Target: ns=19;i=20
         Direction: Forward
+    - Name: RecipeSchema1
+      Id: g=bec1df908a11cde695f0961efa270ad8
+      Type: SQLiteStoreTable
+      Children:
       - Name: Columns
         Id: g=fc44841ba85ef04cf369b40d6dad0c2f
         Type: BaseObjectType
@@ -170,10 +158,6 @@ Children:
           Type: StoreColumn
           DataType: Color
           Value: "#00000000"
-    - Name: StyleSheetRecipeSchema
-      Id: g=ca281a04acfdf7e34c6a9403db722b5d
-      Type: SQLiteStoreTable
-      Children:
       - Class: Reference
         Target: ns=19;i=12
         Direction: Forward
@@ -186,6 +170,10 @@ Children:
       - Class: Reference
         Target: ns=19;i=20
         Direction: Forward
+    - Name: StyleSheetRecipeSchema
+      Id: g=ca281a04acfdf7e34c6a9403db722b5d
+      Type: SQLiteStoreTable
+      Children:
       - Name: Columns
         Id: g=0559b22ecbef37667faeb9100677c50e
         Type: BaseObjectType
@@ -265,6 +253,18 @@ Children:
           Type: StoreColumn
           DataType: Color
           Value: "#00000000"
+      - Class: Reference
+        Target: ns=19;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=20
+        Direction: Forward
   - Name: MaxColumnNameLength
     Id: g=908274121db785f4252b38288e0a1c74
     Type: BaseDataVariableType
@@ -314,12 +314,16 @@ Children:
     Direction: Forward
   - Class: Reference
     Target: ns=19;i=53
+    Direction: Forward
   - Class: Reference
     Target: ns=19;i=55
+    Direction: Forward
   - Class: Reference
     Target: ns=19;i=57
+    Direction: Forward
   - Class: Reference
     Target: ns=19;i=59
+    Direction: Forward
   - Class: Reference
     Target: ns=21;i=30
     Direction: Forward

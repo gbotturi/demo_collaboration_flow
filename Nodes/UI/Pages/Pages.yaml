@@ -1815,287 +1815,6 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
-    - Name: AnalogItemWidget1
-      Id: g=f2434ad9642cd0304250ad08edb29824
-      Type: AnalogItemWidget
-      Children:
-      - Name: InputVariable
-        Id: g=859ccff65f0c69c1e570e06b3d76ee9a
-        Type: Alias
-        DataType: NodeId
-        Value: {"IdType":2,"Id":"33078a62bfdf2124ff4a662049c77309","Namespace":28}
-        Children:
-        - Name: Kind
-          Id: g=93716904d836aa198cca52a8fdffa1bf
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":2368}
-      - Name: NameAndUDM
-        Id: g=a5561f3fca81fa3036881bfad7a1662a
-        Type: Panel
-        Children:
-        - Name: VerticalLayout1
-          Id: g=7a63888d1a3984bb96ae03027207cec6
-          Type: ColumnLayout
-          Children:
-          - Name: DisplayName
-            Id: g=a12a178aff48bb70c095f2b08bb4cb0d
-            Type: EditableLabel
-            Children:
-            - Name: Text
-              Id: g=ed824d7b2f186e70dc59c15abdcbaebe
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"Variable name","Text":"Variable name"}
-              Children:
-              - Name: StringFormatter1
-                Id: g=34219998aaffba9841a79a3021367470
-                Type: StringFormatter
-                Children:
-                - Name: Format
-                  Id: g=871756ab5bfef722ba6f6e7512f99634
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"{1} {0}"}
-                - Name: ns=5;Source0
-                  Id: g=da19e947b60a0656f1eac91b5f4deb17
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DataBind
-                    Id: g=5f22b2917332a548d1e7dbd734713408
-                    Type: DataBind
-                    DataType: NodePath
-                    Value: "{InputVariable}@DisplayName"
-                - Name: Mode
-                  Id: g=e6fad0b7c95292b2c757759f0da7b4e2
-                  Type: PropertyType
-                  DataType: DataBindModeType
-                  ReferenceType: HasComponent
-                  Value: 0
-                - Name: ns=5;Source1
-                  Id: g=1d9bf1143c22ef14032c1fb718a7fcc4
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Id: g=585bbf1e6396a213e4f9cc3ddcea01e6
-                    Type: DataBind
-                    DataType: NodePath
-                    Value: "{NodeId:ns=28;g=0cf7d48b-5786-7e00-daea-cfe4e74eb8a6}@DisplayName"
-            - Name: Editable
-              Id: g=b1cf6c03ec69448f9359c6d224590974
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Id: g=9cf9a9579dbaa902b0aae33ef81e3eff
-                Type: DataBind
-                DataType: NodePath
-                Value: "{Session}/Groups/Translator"
-          - Name: MeasurementUnit
-            Id: g=b211ae5cae136fe776aceb0f46af6f5d
-            Type: Label
-            Children:
-            - Name: AnalogItem1
-              Id: g=7c508a97cd91c3abc803705b7d57fd9c
-              Type: AnalogItemType
-              DataType: Float
-              Value: 0.0
-              Children:
-              - Name: EURange
-                Id: g=84f38427fbe2a98683d7a48d3d27c284
-                Type: RangeType
-                DataType: EURange
-                Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
-                Children:
-                - Name: Low
-                  Id: g=273e88426a11131a0c1f5fbcf0ad497d
-                  Type: BaseVariableType
-                  DataType: Double
-                  ReferenceType: HasProperty
-                  Value: 0.0
-                - Name: High
-                  Id: g=20af18b1bc7889d6eeaa125dfd6e9ada
-                  Type: BaseVariableType
-                  DataType: Double
-                  ReferenceType: HasProperty
-                  Value: 0.0
-              - Name: EngineeringUnits
-                Id: g=a0d386ad568c5f04596de777b4c51f87
-                Type: EUInformationType
-                DataType: EUInformation
-                Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
-                Children:
-                - Name: UnitId
-                  Id: g=bf580261f83674ce4d4e1363d2beeedf
-                  Type: BaseVariableType
-                  DataType: Int32
-                  ReferenceType: HasProperty
-                  Value: -1
-                - Name: DisplayName
-                  Id: g=ffe178b119968754a1b77cbbaafa6b77
-                  Type: BaseVariableType
-                  DataType: LocalizedText
-                  ReferenceType: HasProperty
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                - Name: Description
-                  Id: g=599f6188dab9d396621ea2ac53409bad
-                  Type: BaseVariableType
-                  DataType: LocalizedText
-                  ReferenceType: HasProperty
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              - Name: DataBind
-                Id: g=ecc8ff61c43d14baf7a389dbb464a0f8
-                Type: DataBind
-                DataType: NodePath
-                Value: "{InputVariable}"
-                Children:
-                - Name: EngineeringUnitBindingMode
-                  Id: g=b91d3b83e2a4a5877be55c9baab290a0
-                  Type: BaseVariableType
-                  DataType: DataBindEngineeringUnitBindingMode
-                  Value: 0
-            - Name: Text
-              Id: g=365042b4d30877b78aa3dffbf5658ca1
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"it-IT","Text":"UDM"}
-              Children:
-              - Name: DataBind
-                Id: g=218910b46e6a672548a6fb34cd971fed
-                Type: DataBind
-                DataType: NodePath
-                Value: "../AnalogItem1/EngineeringUnits/DisplayName"
-        - Name: Width
-          Id: g=7d57bcbfe208cfbe1f6a7aea2d570590
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 110.0
-      - Name: Value
-        Id: g=337ac1f6cc67c0c64f055656fb1f7196
-        Type: Panel
-        Children:
-        - Name: Value
-          Id: g=7629e8961eb5322ebf6e8090528b4307
-          Type: Label
-          Children:
-          - Name: AnalogItem1
-            Id: g=f2b4a293d8a0c4c9b963b213292f64fd
-            Type: AnalogItemType
-            DataType: Float
-            Value: 0.0
-            Children:
-            - Name: EURange
-              Id: g=649d20ba10347c278e662cf56e0d9c03
-              Type: RangeType
-              DataType: EURange
-              Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
-              Children:
-              - Name: Low
-                Id: g=ea4dc32d21636422a3c00ea88edfeef9
-                Type: BaseVariableType
-                DataType: Double
-                ReferenceType: HasProperty
-                Value: 0.0
-              - Name: High
-                Id: g=b95491737c14c5d3b2598aba5734981c
-                Type: BaseVariableType
-                DataType: Double
-                ReferenceType: HasProperty
-                Value: 0.0
-            - Name: EngineeringUnits
-              Id: g=e2a412d6e10304b7b8261cbf220ba606
-              Type: EUInformationType
-              DataType: EUInformation
-              Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
-              Children:
-              - Name: UnitId
-                Id: g=07f3e3d31343593821fa453bfcf1d01f
-                Type: BaseVariableType
-                DataType: Int32
-                ReferenceType: HasProperty
-                Value: -1
-              - Name: DisplayName
-                Id: g=da7de8a39140506f064d8fcb93ff3d3d
-                Type: BaseVariableType
-                DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              - Name: Description
-                Id: g=464565229b6d3813ccc2acb8c0092deb
-                Type: BaseVariableType
-                DataType: LocalizedText
-                ReferenceType: HasProperty
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            - Name: DataBind
-              Id: g=737835935f6a6966413e0d4a96c45720
-              Type: DataBind
-              DataType: NodePath
-              Value: "{InputVariable}"
-              Children:
-              - Name: EngineeringUnitBindingMode
-                Id: g=4805fd6131dfddd6015c7039503c1a6b
-                Type: BaseVariableType
-                DataType: DataBindEngineeringUnitBindingMode
-                Value: 0
-          - Name: Text
-            Id: g=824428a4736824d77312a5587acab714
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: StringFormatter1
-              Id: g=b262676ae936cebc924692c14e8e2476
-              Type: StringFormatter
-              Children:
-              - Name: Format
-                Id: g=27359511f58478ddf0a93dbca79aeba6
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"{0:f1}"}
-              - Name: Source0
-                Id: g=38fca8f3abdc647df3f15be499d3325f
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Id: g=548ab59c04b90bc236fc76b635a784db
-                  Type: DataBind
-                  DataType: NodePath
-                  Value: "../../../AnalogItem1"
-      - Name: VerticalAlignment
-        Id: g=f414d198639defc2cb2a1c16f1ad1448
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        Value: 3
-      - Name: ns=4;IsLocked
-        Id: g=c3052b85da80c90849144aa373895a15
-        Type: BaseVariableType
-        DataType: Boolean
-        ReferenceType: HasProperty
-        Value: true
-      - Name: Width
-        Id: g=ee27812398bce45b7a8e96a76a273151
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 279.0
-      - Name: HorizontalAlignment
-        Id: g=fbeaf2bc05e84a9dcac298359e420441
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
   - Name: DisplayName
     Id: g=5aa891e4a8bed63bbcab5083aec2f2ef
     Type: BaseDataVariableType
@@ -4978,9 +4697,6 @@ Children:
       Id: g=5d7affe6572c5fffb54943950931db01
       Type: DataGrid
       Children:
-      - Class: Reference
-        Target: ns=7;i=504
-        Direction: Forward
       - Name: Model
         Id: g=09c913df29aa683370c83cdb670d2aa4
         Type: NodePointer
@@ -5314,6 +5030,9 @@ Children:
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=7;i=504
+        Direction: Forward
     - Name: ConfirmButton
       Id: g=e5506afbbe9bee0bd4b2edc4bcea2819
       Type: Button
@@ -6514,9 +6233,6 @@ Children:
                 Type: PropertyType
                 DataType: NodeId
                 Value: {"IdType":2,"Id":"23d658d3e4eb2dc27f452f7b53efc5b6","Namespace":28}
-            - Class: Reference
-              Target: ns=7;i=480
-              Direction: Forward
             - Name: Width
               Id: g=7bc1804d6480b0775a81e8264876a3de
               Type: BaseVariableType
@@ -6575,6 +6291,9 @@ Children:
               Type: BaseDataVariableType
               DataType: BaseDataType
               AccessLevel: Read
+            - Class: Reference
+              Target: ns=7;i=480
+              Direction: Forward
         - Name: FontItalic
           Id: g=62d611c801af4e0682522396fdc49915
           Type: Panel
@@ -8995,12 +8714,6 @@ Children:
       Id: g=deb3b3fb159ef100f1732d705bb85ad1
       Type: ComboBox
       Children:
-      - Class: Reference
-        Target: ns=7;i=480
-        Direction: Forward
-      - Class: Reference
-        Target: ns=7;i=504
-        Direction: Forward
       - Name: Text
         Id: g=db230972353e1d181645b65dda639cbb
         Type: BaseDataVariableType
@@ -9115,6 +8828,12 @@ Children:
         Type: BaseDataVariableType
         DataType: BaseDataType
         AccessLevel: Read
+      - Class: Reference
+        Target: ns=7;i=480
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=504
+        Direction: Forward
     - Name: OutputMessage
       Id: g=1986c031306dc1b54c1126d34af0fae0
       Type: Label
@@ -9496,15 +9215,6 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "https://www.breton.it/it"
-    - Class: Reference
-      Target: ns=7;i=354
-      Direction: Forward
-    - Class: Reference
-      Target: ns=7;i=356
-      Direction: Forward
-    - Class: Reference
-      Target: ns=7;i=358
-      Direction: Forward
     - Name: Width
       Id: g=6c5bd8687c766b6554893c242745f30b
       Type: BaseVariableType
@@ -9553,6 +9263,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+    - Class: Reference
+      Target: ns=7;i=354
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=356
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=358
+      Direction: Forward
 - Name: XYChartPanel
   Id: g=fc22e03c6fa44d0b4102d1152149178e
   Supertype: Panel
@@ -9582,9 +9301,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
-    - Class: Reference
-      Target: ns=7;i=573
-      Direction: Forward
     - Name: Width
       Id: g=e9936cdbeaed6694e6edaa0ae362a1cc
       Type: BaseVariableType
@@ -9649,6 +9365,9 @@ Children:
       DataType: Double
       ModellingRule: Optional
       Value: 65.0
+    - Class: Reference
+      Target: ns=7;i=573
+      Direction: Forward
   - Name: VerticalAlignment
     Id: g=b369deebc035fe33341e3b6724d0cb7e
     Type: BaseVariableType
@@ -10840,15 +10559,6 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       Value: "ns=28;%PROJECTDIR%/media/video.mp4"
-    - Class: Reference
-      Target: ns=7;i=379
-      Direction: Forward
-    - Class: Reference
-      Target: ns=7;i=381
-      Direction: Forward
-    - Class: Reference
-      Target: ns=7;i=383
-      Direction: Forward
     - Name: Width
       Id: g=8a386b896878ad8f6c4182a523c83075
       Type: BaseVariableType
@@ -10909,6 +10619,15 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 15.0
+    - Class: Reference
+      Target: ns=7;i=379
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=381
+      Direction: Forward
+    - Class: Reference
+      Target: ns=7;i=383
+      Direction: Forward
 - Name: UserEditor
   Id: g=36059627fc50845a17da1f057c6635e7
   Supertype: Panel
@@ -10964,9 +10683,6 @@ Children:
           Id: g=03bce758f1545c3f304d896167dfa54f
           Type: ListBox
           Children:
-          - Class: Reference
-            Target: ns=7;i=481
-            Direction: Forward
           - Name: Model
             Id: g=e8dda088f9989239886a85ebef134de3
             Type: NodePointer
@@ -11045,13 +10761,13 @@ Children:
             Type: BaseDataVariableType
             DataType: BaseDataType
             AccessLevel: Read
+          - Class: Reference
+            Target: ns=7;i=481
+            Direction: Forward
         - Name: UserEditorPanelLoader
           Id: g=b034dc0d668ab5665c480df0dc7d413f
           Type: PanelLoader
           Children:
-          - Class: Reference
-            Target: ns=7;i=478
-            Direction: Forward
           - Name: Panel
             Id: g=2fb6531cea1e3c976b87d905e36f6ba1
             Type: NodePointer
@@ -11125,6 +10841,9 @@ Children:
             - Class: Reference
               Target: g=225457fb092f0e3df7114df18d300ccf
               Direction: Forward
+          - Class: Reference
+            Target: ns=7;i=478
+            Direction: Forward
       - Name: HorizontalLayout2
         Id: g=f7b7a96a79a3b8518032dc632934629e
         Type: RowLayout

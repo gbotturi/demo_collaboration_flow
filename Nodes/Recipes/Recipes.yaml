@@ -84,39 +84,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#00000000"
-  - Class: Reference
-    Target: ns=15;i=27
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=33
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=31
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=44
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=35
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=37
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=53
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=62
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=55
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=58
-    Direction: Forward
-  - Class: Reference
-    Target: ns=15;i=60
-    Direction: Forward
   - Name: Store
     Id: g=a348473d7b7fe6125b8ef2c2aae28649
     Type: NodePointer
@@ -217,3 +184,36 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#00000000"
+  - Class: Reference
+    Target: ns=15;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=60
+    Direction: Forward

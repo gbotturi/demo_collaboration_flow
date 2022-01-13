@@ -2876,9 +2876,6 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: ""
-      - Class: Reference
-        Target: ns=7;i=504
-        Direction: Forward
       - Name: Height
         Id: g=935e84e544c0dfd500a5b9345cc5d863
         Type: BaseDataVariableType
@@ -3035,6 +3032,9 @@ Children:
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=7;i=504
+        Direction: Forward
     - Name: PageBreak2
       Id: g=6935f7d756ea74da1d7311588c1e5883
       Type: PageBreak
@@ -4142,9 +4142,6 @@ Children:
                 Type: BaseVariableType
                 DataType: DataBindModeType
                 Value: 0
-      - Class: Reference
-        Target: ns=7;i=504
-        Direction: Forward
       - Name: Height
         Id: g=2f5cdddb48572fbebf4c84e7c8f581c5
         Type: BaseDataVariableType
@@ -4327,6 +4324,9 @@ Children:
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Class: Reference
+        Target: ns=7;i=504
+        Direction: Forward
   - Name: Footer
     Id: g=0705f0bd9fefb7229c33e962d7ffb94f
     Type: Panel
@@ -4876,9 +4876,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
-  - Class: Reference
-    Target: ns=9;i=16
-    Direction: Forward
   - Name: PageOrientation
     Id: g=f5c1946a08aa307838247263cdc45639
     Type: BaseDataVariableType
@@ -5184,3 +5181,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Class: Reference
+    Target: ns=9;i=16
+    Direction: Forward

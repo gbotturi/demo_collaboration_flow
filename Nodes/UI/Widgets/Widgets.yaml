@@ -7,9 +7,6 @@ Children:
   Supertype: Popup
   ReferenceType: HasComponent
   Children:
-  - Class: Reference
-    Target: ns=7;i=621
-    Direction: Forward
   - Name: Width
     Id: g=d1213ba7ada29782310d55f37ee03185
     Type: BaseVariableType
@@ -117,9 +114,6 @@ Children:
       Id: g=fa5e7884ced3f8e39c6353c2004838ff
       Type: ComboBox
       Children:
-      - Class: Reference
-        Target: ns=7;i=480
-        Direction: Forward
       - Name: Text
         Id: g=9bff5e7a273c3eaf90996524137e1b7b
         Type: BaseDataVariableType
@@ -207,6 +201,9 @@ Children:
         Type: BaseDataVariableType
         DataType: BaseDataType
         AccessLevel: Read
+      - Class: Reference
+        Target: ns=7;i=480
+        Direction: Forward
     - Name: Password
       Id: g=85b723f0eaad005ff0c9bd4dcc24bdea
       Type: TextBox
@@ -579,14 +576,14 @@ Children:
             ValueRank: OneDimension
             ArrayDimensions: [0]
             Value: [{"TypeId":{"Id":296},"Body":{"Name":"loginSucceded","DataType":{"Id":1},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
 - Name: ColoPickerPopup
   Id: g=5ed4b0d7a53d7342d9596054c609e09a
   Supertype: Popup
   ReferenceType: HasComponent
   Children:
-  - Class: Reference
-    Target: ns=7;i=621
-    Direction: Forward
   - Name: Context
     Id: g=93b9522adf9beabcd52bd2612c8635e1
     Type: Alias
@@ -1518,6 +1515,9 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
 - Name: AnalogItemSetupWidget
   Id: g=c5b344ab8c7010830cf8ffdaa4d20d0c
   Supertype: RowLayout
@@ -3058,9 +3058,6 @@ Children:
   Supertype: Popup
   ReferenceType: HasComponent
   Children:
-  - Class: Reference
-    Target: ns=7;i=621
-    Direction: Forward
   - Name: Width
     Id: g=e0a5bfd3f46078469d38d74fc7756eb8
     Type: BaseVariableType
@@ -3621,6 +3618,7 @@ Children:
       Value: 5.0
     - Class: Reference
       Target: ns=7;i=478
+      Direction: Forward
   - Name: Visible
     Id: g=f69b609dfd813aa415ecd101cfc40470
     Type: BaseDataVariableType
@@ -3666,6 +3664,9 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
+  - Class: Reference
+    Target: ns=7;i=621
+    Direction: Forward
 - Name: PdfViewerPanel
   Id: g=1eec1f3fb6cfa99495a143cdcd84d218
   Supertype: Panel

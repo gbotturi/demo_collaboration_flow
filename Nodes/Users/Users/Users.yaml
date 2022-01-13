@@ -44,9 +44,6 @@ Children:
     DataType: Password
     ReferenceType: HasProperty
     Value: "admin"
-  - Class: Reference
-    Type: HasGroup
-    Target: g=64a5c3afc7ac55a9714efa6c50bc921c
 - Name: translator
   Id: g=3b8cbc30ac266eb7585d8346b1cfb5d2
   Type: UserType
@@ -59,9 +56,6 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
-  - Class: Reference
-    Type: HasGroup
-    Target: g=391e5a6c1502daaf0609d3729a7b05d5
 - Name: Asem
   Id: g=62be12aa3650369e3a769184b3844c34
   Type: UserType
@@ -80,6 +74,3 @@ Children:
     DataType: Password
     ReferenceType: HasProperty
     Value: "Asemasem1"
-  - Class: Reference
-    Type: HasGroup
-    Target: g=904a0b69f7a296c7d35a3d936919233f
