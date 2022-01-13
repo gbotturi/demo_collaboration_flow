@@ -66,6 +66,11 @@ Children:
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: Thickness
+    Id: g=0433e7ede1724d99ea6041c592ca5a83
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
 - Name: Spindle
   Id: g=ccd2bf1857c471d11c7e8571180a45b3
   Supertype: BaseObjectType
