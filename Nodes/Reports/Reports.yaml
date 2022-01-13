@@ -1330,7 +1330,7 @@ Children:
           Id: g=fd7c26e8dd7cdf3c2e71ae63eacabaf2
           Type: BaseDataVariableType
           DataType: Size
-          Value: 85.19583129882813
+          Value: 100.01249694824219
           Children:
           - Name: EngineeringUnits
             Id: g=21e7dc611c32fcbc1b0bd0cd6970abc2
@@ -1362,7 +1362,7 @@ Children:
           Id: g=15a7dc640fad6299ad5aab05f65afd52
           Type: BaseDataVariableType
           DataType: Size
-          Value: 20.0
+          Value: 20.108333587646484
           Children:
           - Name: EngineeringUnits
             Id: g=16a3e152cf66abcd2acc8a3e6217ed30
@@ -1485,7 +1485,7 @@ Children:
           Id: g=33619f668744793c390e3bea47769c57
           Type: BaseDataVariableType
           DataType: Size
-          Value: 85.19583129882813
+          Value: 100.01249694824219
           Children:
           - Name: EngineeringUnits
             Id: g=18c2d594c2a29aa807f4710b45a7608c
@@ -1517,7 +1517,7 @@ Children:
           Id: g=398807c2e2e2dfec35d8330a62dfcda4
           Type: BaseDataVariableType
           DataType: Size
-          Value: 30.0
+          Value: 29.897916793823242
           Children:
           - Name: EngineeringUnits
             Id: g=d05c4354449aeb483511ff89575e4b94
@@ -1640,7 +1640,7 @@ Children:
           Id: g=b8dfcd1c629836a20b74487e023a44f2
           Type: BaseDataVariableType
           DataType: Size
-          Value: 85.19583129882813
+          Value: 100.01249694824219
           Children:
           - Name: EngineeringUnits
             Id: g=b3415efed4ef1d21d162fd4e198363e3
@@ -1672,7 +1672,7 @@ Children:
           Id: g=35bf3b96b43c15545746cccffce26fb7
           Type: BaseDataVariableType
           DataType: Size
-          Value: 40.0
+          Value: 39.952083587646484
           Children:
           - Name: EngineeringUnits
             Id: g=4bfdc73ef693259bffb7d6fbf00ad7e6
@@ -1866,7 +1866,7 @@ Children:
           Id: g=4611d95a9795694c1b0d2229d06dcdc2
           Type: BaseDataVariableType
           DataType: Size
-          Value: 85.19580078125
+          Value: 100.01249694824219
           Children:
           - Name: EngineeringUnits
             Id: g=be0ee73e37e4b0bb5356992719d32a19
@@ -1898,7 +1898,7 @@ Children:
           Id: g=698f2e181a3d44b7657eaafe458d72a0
           Type: BaseDataVariableType
           DataType: Size
-          Value: 50.0
+          Value: 50.006248474121094
           Children:
           - Name: EngineeringUnits
             Id: g=823cba22ffdc26a78ac304c95b104844
