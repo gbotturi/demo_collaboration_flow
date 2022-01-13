@@ -10,7 +10,7 @@ Children:
     Id: g=c38adbffe91b527b776a398632f7ee32
     Type: BaseDataVariableType
     DataType: Float
-    Value: 18.0
+    Value: 20.0
   - Name: AccentColor
     Id: g=079df460667900c8f19f21180f3d418a
     Type: BaseDataVariableType
@@ -61,7 +61,7 @@ Children:
     Id: g=83258f836a7dddbd3b7d971ed7f6c4f8
     Type: BaseDataVariableType
     DataType: Color
-    Value: "#e4e4e4"
+    Value: "#e7e6e6"
   - Name: HeaderBackgroundColor
     Id: g=5235a7583ac4ea573f4ca733b93a10b7
     Type: BaseDataVariableType
